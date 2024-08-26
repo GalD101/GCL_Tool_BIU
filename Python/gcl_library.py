@@ -82,7 +82,7 @@ def gcl(data, num_divisions):
     """
     calculate the GCL of the data (num_divisions) times and return it as a list (vector).
     :param data: Input data such that [num_genes, num_cells] = size(data).
-    :param num_divisions: Number of random gene division to calculate (default: 100)..
+    :param num_divisions: Number of random gene division to calculate (default: 100).
     :return: The GCL of the data - a number (nan mean value).
     """
     gcl_output = []
