@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/venv/source/repos" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (GCL Project)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (GCL_Tool_BIU)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
