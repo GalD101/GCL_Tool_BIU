@@ -1,0 +1,21 @@
+{
+  "name": "Python Dev Container with Jupyter",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.9"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install jupyterlab numpy pandas scipy scikit-learn matplotlib seaborn",
+  "forwardPorts": [8888],
+  "remoteUser": "vscode",
+  "postStartCommand": "./.devcontainer/entrypoint.sh"
+}
