@@ -14,7 +14,7 @@
       ]
     }
   },
-  "postCreateCommand": "pip install jupyterlab numpy pandas scipy scikit-learn matplotlib seaborn",
+  "postCreateCommand": "pip install jupyterlab numpy pandas scipy scikit-learn matplotlib seaborn && chmod +x .devcontainer/entrypoint.sh",
   "forwardPorts": [8888],
   "remoteUser": "vscode",
   "postStartCommand": "./.devcontainer/entrypoint.sh"
