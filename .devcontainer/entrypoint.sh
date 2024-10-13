@@ -1,7 +1,7 @@
 #!/bin/bash
 # Start Jupyter Notebook with a password
 jupyter notebook password <<EOF
-$(cat .devcontainer/password.txt)
+${{ secrets.PASS_WORD_DEVCONTAINER }}
 EOF
 
 # Start Jupyter Notebook in the background
